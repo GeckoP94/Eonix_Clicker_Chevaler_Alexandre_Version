@@ -1,16 +1,17 @@
-import React from 'react';
 
-function Home({
-  onIncrement,
-  counter,
-}) {
+import React, { useState } from 'react';
+
+function Home() {
+  // Déclare une nouvelle variable d'état, que nous appellerons "compte"
+  const [compte, setCompte] = useState(0);
+  
   return (
-    <div>
-      <button>
-        Vous avez cliqué {counter} fois
-      </button>
-    </div>
+   
+    <button onClick={() => setCompte(compte + 1)}>
+    Vous avez cliqué {compte} fois
+    </button>
+  
   );
-};
+}
 
 export default Home;
