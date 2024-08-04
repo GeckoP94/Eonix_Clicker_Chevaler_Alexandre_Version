@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+    background-color: #0E3460;
+}
+
+h1{
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    color: white;
+}
+
+.sectionCounter{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin: 0 auto;
+}
+
+
+button{
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    padding: 1rem 2rem;
+    cursor: pointer;
+    border: none;
+    background-color: white;
+    box-shadow: 3px 4px #77b6c5;
+    transition: all .5s ease;
+    max-width: 50%;
+    margin: 10px;
+}
+
+button:hover{
+    background-color: #77b6c5;
+    box-shadow: 7px 7px #2b6bb5;
+}
+
+.Home{
+    display: block;
+    margin: 0 auto;
+    width: 50%;
+    text-align: center;
+    margin-top: 150px;
+}
+
+#superCompteur{
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    color: white;
+    font-size: 150px;
+}
+
+/* Responsive */
+
+@media screen and (max-width: 1024px) {
+    .Home{
+        width: 80%;
+    }
+    button{
+        max-width: 100%;
+        font-size: 25px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .Home{
+        margin-top: 50px;
+        width: 90%;
+    }
+
+    h1{
+        font-size: 24px;
+    }
+    button{
+        max-width: 100%;
+        font-size: 14px;
+    }
+}

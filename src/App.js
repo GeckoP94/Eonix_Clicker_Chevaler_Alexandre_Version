@@ -13,7 +13,6 @@ class App extends Component {
     return (
       <Provider store={store}>
         <Router>
-          <h1>Clic Counter </h1>
           <Switch>
             <Route exact path="/" component={Home} />
             <Route component={() => (<h2>Page introuvable</h2>)} />
