@@ -17,8 +17,8 @@ test('increments and decrements count on button click', () => {
   userEvent.click(incrementButton);
 
   // Vérifier que le compteur a été incrémenté
-  // const incrementedCountElement = screen.getByText(/1/i);
-  // expect(incrementedCountElement).toBeInTheDocument();
+  //  const incrementedCountElement = (1/i);
+  //  expect(incrementedCountElement).toBeInTheDocument();
 
   // Simuler un clic sur le bouton de décrémentation
   const decrementButton = screen.getByText(/Décrémenter la valeur du compteur/i);
