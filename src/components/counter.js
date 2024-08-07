@@ -16,7 +16,7 @@ function Counter() {
     
     return (
       <div className='sectionCounter'>
-      <div id="superCompteur">{compte}</div>
+      <div id="superCompteur" data-testid="superCompteur">{compte}</div>
       <button onClick={incrementCount}>
       Incrémenter la valeur de compteur
       </button>

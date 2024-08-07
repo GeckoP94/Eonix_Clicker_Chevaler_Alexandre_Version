@@ -9,6 +9,7 @@
     "history": "^4.10.1",
     "invariant": "^2.2.4",
     "lodash": "^4.17.15",
+    "mutationobserver-shim": "^0.3.7",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-redux": "^7.1.0",
@@ -76,7 +77,7 @@
     "testPathIgnorePatterns": [
       "<rootDir>[/\\\\](build|docs|node_modules|scripts)[/\\\\]"
     ],
-    "testEnvironment": "node",
+    "testEnvironment": "jsdom",
     "testURL": "http://localhost",
     "transform": {
       "^.+\\.(js|jsx)$": "<rootDir>/node_modules/babel-jest",
